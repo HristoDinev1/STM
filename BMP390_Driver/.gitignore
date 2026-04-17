@@ -1,0 +1,24 @@
+# STM32 Build Artifacts
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.d
+*.su
+
+# IDE Settings
+.settings/
+.cache/
+.metadata/
+
+# CubeMX / CubeIDE temporary files
+*.tmp
+*.log
+
+# Other system files
+Thumbs.db
+.DS_Store

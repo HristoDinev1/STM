@@ -1,0 +1,29 @@
+# Logs
+*.log
+*.tlog
+
+# Intermediate files
+Debug/
+Release/
+*.o
+*.obj
+*.su
+*.d
+*.crf
+*.lst
+*.map
+*.elf
+*.bin
+*.hex
+
+# IDE files
+.settings/
+.project
+.cproject
+.mxproject
+*.pdm
+*.launch
+
+# User files
+*.bak
+*~
