@@ -45,7 +45,7 @@ private:
 	};
 	Status checkChipId() const noexcept;
 	Status softReset()const noexcept;
-	Status setIIRFilter(IIR_Config coefficient)const noexcept; //Note:: pitai filip za IIR po vreme na izlitane i po vreme na polet (accelerometer ?)
+	Status setIIRFilter(IIR_Config coefficient)const noexcept; 
 	Status setMode(Mode mode)noexcept;
 	Status configureSpi(SPI_Config conf) const noexcept; // configure for 4 wires
 	Status setOSRTemp(osr_t ratio) const noexcept;
